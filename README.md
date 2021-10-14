@@ -1,5 +1,7 @@
 # Student-Directory
 
+### [Demo this application](https://student-directory-app.herokuapp.com/)
+
 ## Objective
 The objective of this project was to create a full CRUD REST API for a student directory, as well as a frontend to render the information.
 
