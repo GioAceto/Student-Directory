@@ -27,7 +27,7 @@ const addNewStudent = async (req, res) => {
 
     await newStudent.create({ name, age, address, gpa, major, image })
 
-    return res.status(201).redirect('/students')
+    return res.status(201).redirect('/')
   } catch (error) {
     return res.status(500).send("HTTP Error 500 unable to handle this request")
   }
@@ -48,7 +48,7 @@ const updateStudent = async (req, res) => {
 
     const updatedStudent = await student.update({ name, age, address, gpa, major, image }, { returning: true })
 
-    return res.status(201).redirect('/students')
+    return res.status(201).redirect('/')
 
   } catch (error) {
     console.log(error)
@@ -67,7 +67,7 @@ const deleteStudent = async (req, res) => {
 
     await student.destroy()
 
-    return res.status(200).redirect('/students')
+    return res.status(200).redirect('/')
 
   } catch (error) {
     res.status(500).send("HTTP Error 500 unable to handle this request");
