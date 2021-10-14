@@ -83,6 +83,6 @@ http://localhost:1800/api/students/000001
 
 DELETE - Deletes a student currently in the databse by Student ID # (which is the param). The id # works both with or without leading zeros when used as the param.
 
-## To View the Frontend
+## To View the Frontend locally
 
-http://localhost:1800/students
+http://localhost:1800/
