@@ -1,5 +1,8 @@
 # Student-Directory
 
+#### [Note: An updated version of this application built with React.js can be found here](https://github.com/GioAceto/Student-Directory-API-UI)
+---
+
 ### [Demo this application](https://student-directory-app.herokuapp.com/)
 
 ## Objective
@@ -81,7 +84,7 @@ All of these properties are required to update: name, age, address, gpa, major, 
 
 http://localhost:1800/api/students/000001
 
-DELETE - Deletes a student currently in the databse by Student ID # (which is the param). The id # works both with or without leading zeros when used as the param.
+DELETE - Deletes a student currently in the database by Student ID # (which is the param). The id # works both with or without leading zeros when used as the param.
 
 ## To View the Front End Locally
 
