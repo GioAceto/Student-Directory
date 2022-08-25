@@ -3,8 +3,6 @@
 #### [Note: An updated version of this application built with React.js can be found here](https://github.com/GioAceto/Student-Directory-API-UI)
 ---
 
-### [Demo this application](https://student-directory-app.herokuapp.com/)
-
 ## Objective
 The objective of this project was to create a full CRUD REST API for a student directory, as well as a frontend to render the information.
 
